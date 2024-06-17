@@ -6,7 +6,7 @@
 
 [Code1 Repository](https://github.com/M00St4r/Code1)
 
-### Daniel
+## Daniel
 
 ![pb](https://github.com/MatBudimir/0Sugar/blob/592068f467e0ca17bc6db865516bd3b7a487b655/images/c4n.jpg)
 
