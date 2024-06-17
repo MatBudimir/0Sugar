@@ -24,4 +24,6 @@
 
 ### Yasmin
 
+![WIN_20240617_13_12_10_Pro](https://github.com/MatBudimir/0Sugar/assets/173050635/0cd4c769-b27a-455d-baa0-7995c8b534b6)
+
 [Code1 Repository](https://github.com/YasminZahrir/Code1)
