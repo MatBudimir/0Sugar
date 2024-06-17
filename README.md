@@ -1,5 +1,6 @@
 Wir sind alle cool hier und dieses dokument wird nie für probleme sorgen!
 
-Den Text hat Robin geschrieben. crazy.
-
-kxnudxfguxdfgfguuxfguniu
+bongo-branch
+bongo drum
+bongo conflict resolved
+world bongo peace achieved
