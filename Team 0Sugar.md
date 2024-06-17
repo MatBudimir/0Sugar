@@ -8,7 +8,7 @@
 
 ### Daniel
 
-![pb](https://github.com/MatBudimir/0Sugar/blob/main/images/the-wok-the-rock.gif)
+![pb](https://github.com/MatBudimir/0Sugar/blob/592068f467e0ca17bc6db865516bd3b7a487b655/images/c4n.jpg)
 
 [Code1 Repo](https://github.com/c4nbe/Code1/blob/4c1a67d1cb43af81180a86a2b740b76847490a99/README.md)
 
