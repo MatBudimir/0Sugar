@@ -6,6 +6,7 @@
 
 [Code1 Repository](https://github.com/M00St4r/Code1)
 ### Daniel
+[Code1 Repo](https://github.com/c4nbe/Code1/blob/4c1a67d1cb43af81180a86a2b740b76847490a99/README.md)
 ### Matej
 
 ![pb](https://media1.tenor.com/m/TKSEpuhns1oAAAAC/haha-baby.gif)
