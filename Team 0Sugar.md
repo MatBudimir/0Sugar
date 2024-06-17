@@ -2,7 +2,7 @@
 
 ### Björn
 
-![pb](https://media1.tenor.com/m/L1SOy0Q8O7gAAAAC/eyebrow-raise-shrek.gif)
+![pb](https://media1.tenor.com/m/L1SOy0Q8O7gAAAAC/eyebrow-raise-shrek.gif | width=100)
 
 [Code1 Repository](https://github.com/M00St4r/Code1)
 
@@ -14,7 +14,7 @@
 
 ### Matej
 
-![pb](https://media1.tenor.com/m/TKSEpuhns1oAAAAC/haha-baby.gif)
+![pb](https://media1.tenor.com/m/TKSEpuhns1oAAAAC/haha-baby.gif | width=100)
 
 [Code1 Repository](https://github.com/MatBudimir/Code1)
 
