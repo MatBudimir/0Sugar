@@ -10,7 +10,11 @@ world bongo peace achieved
 
 congo bongo drum reloaded
 
-🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘
+🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘🪘
+
+○( ＾皿＾)っ Hehehe…
+
+(￣y▽￣)╭ Ohohoho.....
 
 
 HEHEHEs
