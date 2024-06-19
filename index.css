@@ -1,8 +1,14 @@
+:root{
+    --textcolor: #fb9062;
+}
+
+
 .rubikbald {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  color: var(--textcolor);
 }
 
 .rubiklight {
@@ -10,6 +16,7 @@
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+    color: var(--textcolor);
 }
 
 .PagesButtons{
@@ -17,6 +24,7 @@
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+    color: var(--textcolor);
 }
 
 button{
