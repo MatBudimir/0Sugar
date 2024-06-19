@@ -1,6 +1,20 @@
-.rubikfont {
+.rubikbald {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+}
+
+.rubiklight {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.PagesButtons{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
