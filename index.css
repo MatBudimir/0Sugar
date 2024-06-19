@@ -24,7 +24,6 @@ button{
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    display: block;
     background-color: #ee5d6c;
     border: none;
 }
@@ -34,5 +33,7 @@ body{
 }
 
 .buttoncontainer {
+    width: 300px;
+    height: 100px;
     padding: 10px;
 }
