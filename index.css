@@ -24,10 +24,15 @@ button{
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+    display: block;
     background-color: #ee5d6c;
     border: none;
 }
 
 body{
     background-color: #6a0d83;
+}
+
+.buttoncontainer {
+    padding: 10px;
 }
