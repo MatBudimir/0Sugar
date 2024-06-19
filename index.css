@@ -31,3 +31,7 @@ button{
 body{
     background-color: #6a0d83;
 }
+
+.buttoncontainer {
+    padding: 10px;
+}
