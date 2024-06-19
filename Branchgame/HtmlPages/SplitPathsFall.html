@@ -14,11 +14,12 @@
             Why would you climb out of a tower window?? Make better decisions.
         </button>
     </a>
+    <audio id="splatAudio" src="../sounds/Blood_Splat.wav"></audio>
     <script>
         window.onload = function () {
-            const audio = new Audio("../sounds/Blood_Splat.wav");
-            audio.play();
-        }
+            const audioElement = document.getElementById("splatAudio");
+            audioElement.play();
+        };
     </script>
 </body>
 </html>
