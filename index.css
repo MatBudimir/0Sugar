@@ -1,5 +1,7 @@
 :root{
     --textcolor: #fb9062;
+    --bgcolor: #6a0d83;
+    --buttoncolor: #ee5d6c;
 }
 
 
@@ -28,22 +30,31 @@
 }
 
 button{
+    align-items: center;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    background-color: #ee5d6c;
+    background-color: var(--buttoncolor);
     border: none;
     display: inline-block;
     display: block;
 }
 
 body{
-    background-color: #6a0d83;
+    background-color: var(--bgcolor);
 }
 
 .buttoncontainer {
     width: 300px;
     height: 50px;
     padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
 }
