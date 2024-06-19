@@ -26,6 +26,7 @@ button{
     font-style: normal;
     background-color: #ee5d6c;
     border: none;
+    display: inline-block;
 }
 
 body{
