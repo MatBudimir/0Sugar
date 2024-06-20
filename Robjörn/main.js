@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         message1 = prompt("Hello");
     }
     document.getElementById("Output").innerHTML = "how are you";
+    //upsate
     //function changeBackground(color) {
     //    document.body.style.background = color;
     //}
