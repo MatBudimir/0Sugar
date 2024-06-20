@@ -3,6 +3,7 @@ You find yourself standing at the edge of an enchanted forest. You've heard tale
 
 Take the Path to the Left: This path is overgrown with vines and flowers. It's said to be the safer route, but who knows what secrets it holds?
 Take the Path to the Right: This path is dark and foreboding. It's known for its dangerous creatures, but also for the treasures that those creatures guard.
+
 Level 2: Left Path
 Option 1A: As you walk along the left path, you come across a talking fox. The fox offers to guide you through the forest in exchange for a favor.
 
@@ -12,6 +13,7 @@ Option 1B: The path takes you to a serene clearing with a sparkling pond. You no
 
 Dive into the Pond: You decide to investigate the glowing object, diving into the clear water.
 Continue Walking: You choose to ignore the pond and continue on your way, eager to see what else lies ahead.
+
 Level 2: Right Path
 Option 2A: As you proceed down the right path, you encounter a group of goblins who seem to be guarding something precious.
 
@@ -21,126 +23,151 @@ Option 2B: The path leads you to a dark cave entrance. Strange noises echo from 
 
 Enter the Cave: You muster your courage and step into the darkness of the cave.
 Avoid the Cave: You decide not to risk it and continue along the path, staying in the open.
+
 Level 3: Accept the Fox's Offer (1A1)
 The fox guides you to a hidden grove filled with rare herbs and plants.
 
 Gather Herbs: You collect some herbs, thinking they might be useful later.
 Explore Further: You ask the fox to take you to the next part of the forest.
+
 Level 3: Decline the Fox's Offer (1A2)
 You come across a rickety bridge over a deep chasm. A sign warns of the bridge's instability.
 
 Cross the Bridge: You carefully make your way across the bridge.
 Find Another Way: You search for a safer route around the chasm.
+
 Level 3: Dive into the Pond (1B1)
 Under the water, you find a magical amulet. As you surface, you see a shadowy figure watching you from the shore.
 
 Approach the Figure: You swim towards the figure to see who or what it is.
 Hide the Amulet: You quickly hide the amulet and prepare for a possible confrontation.
+
 Level 3: Continue Walking (1B2)
 You encounter a wise old tree that can speak. It offers you a riddle, promising a reward if you solve it.
 
 Solve the Riddle: You attempt to answer the tree's riddle.
 Ignore the Riddle: You politely decline and continue on your way.
+
 Level 3: Confront the Goblins (2A1)
 The goblins challenge you to a game of wits. If you win, they will let you pass and share their treasure.
 
 Play the Game: You accept the challenge, confident in your abilities.
 Fight the Goblins: You decide it's safer to fight your way through.
+
 Level 3: Sneak Past the Goblins (2A2)
 You successfully sneak past the goblins and find a hidden path leading deeper into the forest.
 
 Follow the Hidden Path: You follow the path, curious about where it leads.
 Return to the Main Path: You decide to return to the main path to avoid getting lost.
+
 Level 3: Enter the Cave (2B1)
 Inside the cave, you find a sleeping dragon guarding a hoard of treasure.
 
 Steal Some Treasure: You carefully take a small piece of treasure, hoping not to wake the dragon.
 Leave the Cave: You decide it's too risky and quietly leave the cave.
+
 Level 3: Avoid the Cave (2B2)
 You continue along the path and find an abandoned cabin. The door is slightly ajar.
 
 Enter the Cabin: You decide to investigate the cabin, hoping to find supplies or information.
 Ignore the Cabin: You decide to keep moving, wary of potential dangers.
+
 Level 4: Gather Herbs (1A1A)
 You collect several rare herbs, which might be useful for healing or other purposes.
 
 Thank the Fox: You thank the fox and ask it to guide you further.
 Part Ways: You decide you've had enough of the fox's help and continue alone.
+
 Level 4: Explore Further (1A1B)
 The fox leads you to an ancient ruin covered in vines.
 
 Explore the Ruin: You decide to explore the ruin, intrigued by its history.
 Set Up Camp: You choose to set up camp and rest for a while.
+
 Level 4: Cross the Bridge (1A2A)
 You safely cross the bridge and find a mysterious cave on the other side.
 
 Enter the Cave: You decide to explore the cave.
 Keep Walking: You choose to continue on the path beyond the bridge.
+
 Level 4: Find Another Way (1A2B)
 You find a narrow path that winds down the side of the chasm.
 
 Take the Narrow Path: You decide to take the narrow path, despite its difficulty.
 Turn Back: You decide the risk is too great and turn back to find another route.
+
 Level 4: Approach the Figure (1B1A)
 The figure reveals itself to be a friendly forest spirit.
 
 Talk to the Spirit: You engage the spirit in conversation, hoping to learn from it.
 Attack the Spirit: You don't trust the spirit and decide to attack it.
+
 Level 4: Hide the Amulet (1B1B)
 The shadowy figure approaches you, revealing itself to be a guardian of the forest.
 
 Show the Amulet: You reveal the amulet, hoping it will gain the guardian's trust.
 Conceal the Amulet: You keep the amulet hidden and try to talk your way out.
+
 Level 4: Solve the Riddle (1B2A)
 The tree is pleased with your answer and offers you a magic seed.
 
 Plant the Seed: You plant the seed immediately to see what happens.
 Keep the Seed: You decide to keep the seed for later use.
+
 Level 4: Ignore the Riddle (1B2B)
 The tree is disappointed but respects your decision, offering you some advice instead.
 
 Follow the Advice: You heed the tree's advice and adjust your course.
 Disregard the Advice: You continue on your path, relying on your own instincts.
+
 Level 4: Play the Game (2A1A)
 You win the game and the goblins reward you with a piece of their treasure.
 
 Take the Treasure: You accept the treasure and continue on your way.
 Decline the Treasure: You refuse the treasure, suspecting a trick, and move on.
+
 Level 4: Fight the Goblins (2A1B)
 You defeat the goblins and take their treasure.
 
 Examine the Treasure: You carefully inspect the treasure for any traps or curses.
 Leave Quickly: You take the treasure and quickly leave the area.
+
 Level 4: Follow the Hidden Path (2A2A)
 The hidden path leads you to a secret glade filled with magical creatures.
 
 Approach the Creatures: You try to communicate with the creatures.
 Observe from Afar: You decide to watch them from a distance.
+
 Level 4: Return to the Main Path (2A2B)
 You return to the main path and soon find a fork in the road.
 
 Take the Left Fork: You choose the left fork, hoping it leads to your destination.
 Take the Right Fork: You choose the right fork, curious about what lies ahead.
+
 Level 4: Steal Some Treasure (2B1A)
 You manage to take a small piece of treasure without waking the dragon.
 
 Examine the Treasure: You take a closer look at the treasure you stole.
 Hide the Treasure: You hide the treasure in your pack and leave quietly.
+
 Level 4: Leave the Cave (2B1B)
 You exit the cave and find yourself in a beautiful meadow.
 
 Rest in the Meadow: You decide to rest and enjoy the peaceful surroundings.
 Keep Moving: You continue your journey without stopping.
+
 Level 4: Enter the Cabin (2B2A)
 Inside the cabin, you find an old journal that might hold valuable information.
 
 Read the Journal: You start reading the journal to uncover its secrets.
 Take the Journal: You take the journal with you to read later.
+
 Level 4: Ignore the Cabin (2B2B)
 You keep moving and find a crossroads with a signpost pointing in different directions.
 
 Follow the Signpost: You follow the directions on the signpost.
 Choose Your Own Path: You decide to ignore the signpost and choose your own direction.
+
 Level 5: Thank the Fox (1A1A1)
 The fox, pleased with your gratitude, gives you a magical charm for protection.
 
@@ -148,6 +175,7 @@ Wear the Charm: You put on the charm, feeling its protective power.
 Conclusion: With the charm's protection, you safely navigate the rest of the forest and find the treasure you've been seeking. Your adventure ends with you richer and wiser, ready for the next challenge.
 Save the Charm: You keep the charm for later use.
 Conclusion: Keeping the charm proves wise as you later face a great danger. The charm protects you, and you complete your quest, returning home as a hero.
+
 Level 5: Part Ways (1A1A2)
 You bid farewell to the fox and continue your journey alone, feeling more confident.
 
@@ -155,6 +183,7 @@ Head North: You decide to head north, following a new path.
 Conclusion: Heading north, you discover a hidden village where you are welcomed warmly. You share your adventures and find a new place to call home.
 Head South: You choose to head south, drawn by a faint sound in the distance.
 Conclusion: Following the sound, you find an ancient temple. Inside, you uncover ancient knowledge that transforms you into a respected sage in your homeland.
+
 Level 5: Explore the Ruin (1A1B1)
 Inside the ruin, you find an ancient artifact that pulses with magical energy.
 
@@ -162,6 +191,7 @@ Take the Artifact: You take the artifact, feeling its power.
 Conclusion: The artifact grants you immense power, which you use to protect the forest and its creatures. You become a legendary guardian known throughout the land.
 Leave the Artifact: You decide it's too risky to take and leave it behind.
 Conclusion: Respecting the artifact's power, you continue your journey with a clear conscience. Your wisdom is rewarded with a safe and prosperous journey home.
+
 Level 5: Set Up Camp (1A1B2)
 You set up camp and have a restful night, feeling rejuvenated the next morning.
 
@@ -169,6 +199,7 @@ Explore the Surroundings: You explore the area around your camp.
 Conclusion: Exploring the surroundings, you find a hidden entrance to an underground network of caves filled with treasure. Your journey ends with you richer than you ever imagined.
 Continue the Journey: You pack up and continue your journey.
 Conclusion: Rested and rejuvenated, you navigate through the forest with ease, eventually finding a safe passage home, where you share your adventures with friends and family.
+
 Level 5: Enter the Cave (1A2A1)
 In the cave, you find a hidden chamber with ancient writings on the walls.
 
@@ -176,6 +207,7 @@ Read the Writings: You try to decipher the ancient text.
 Conclusion: Deciphering the text reveals a long-lost spell that grants you great wisdom and insight. You become a renowned scholar and wizard, respected by all.
 Take a Rubbing: You take a rubbing of the text to study later.
 Conclusion: The rubbing you take becomes a valuable artifact, leading to numerous discoveries. Your name goes down in history as a great explorer and historian.
+
 Level 5: Keep Walking (1A2A2)
 You find a hidden grove filled with beautiful, exotic flowers.
 
@@ -183,6 +215,7 @@ Pick Some Flowers: You pick a few flowers, thinking they might be useful.
 Conclusion: The flowers you pick have magical properties that heal and protect you throughout your journey. You safely return home, celebrated for your rare finds.
 Admire the Scenery: You take a moment to enjoy the beauty of the grove.
 Conclusion: The peaceful moment in the grove rejuvenates your spirit. You continue your journey with renewed vigor and find success in your quest.
+
 Level 5: Take the Narrow Path (1A2B1)
 The narrow path leads you to a hidden waterfall.
 
@@ -190,6 +223,7 @@ Swim in the Pool: You take a refreshing swim in the pool beneath the waterfall.
 Conclusion: The swim revitalizes you, and you discover a hidden cave behind the waterfall filled with treasures. You return home a wealthy and celebrated adventurer.
 Rest by the Waterfall: You sit by the waterfall, enjoying the sound of the water.
 Conclusion: Resting by the waterfall gives you clarity and peace. You find your way back home with newfound wisdom and inner peace, becoming a wise counselor in your village.
+
 Level 5: Turn Back (1A2B2)
 You find another route that leads to an old stone bridge.
 
@@ -197,6 +231,7 @@ Cross the Stone Bridge: You cross the bridge carefully.
 Conclusion: Safely crossing the bridge, you find a new path that leads you out of the forest. You return home with incredible stories and valuable experiences.
 Examine the Bridge: You inspect the bridge for any signs of danger.
 Conclusion: Your careful inspection saves you from a trap. You find a safer route that leads you to hidden treasures and safely back home.
+
 Level 5: Talk to the Spirit (1B1A1)
 The spirit offers you a blessing for your journey.
 
@@ -204,6 +239,7 @@ Accept the Blessing: You gratefully accept the spirit's blessing.
 Conclusion: The blessing protects you from harm and guides you to hidden treasures. You complete your quest successfully and become a legend in your village.
 Politely Decline: You thank the spirit but decline the blessing.
 Conclusion: Respecting the spirit's offer, you continue your journey and rely on your own strength. Your resilience and courage lead you to a prosperous end.
+
 Level 5: Attack the Spirit (1B1A2)
 You engage in a fierce battle with the spirit.
 
@@ -211,6 +247,7 @@ Fight to Win: You fight with all your might, determined to win.
 Conclusion: Your bravery and strength win the battle. The spirit, now free, rewards you with great wisdom and power, making you a hero in your homeland.
 Try to Escape: You attempt to escape the battle and run away.
 Conclusion: Your escape leads you to a hidden path that safely guides you out of the forest. You return home wiser and more cautious, sharing your tale as a cautionary legend.
+
 Level 5: Show the Amulet (1B1B1)
 The guardian recognizes the amulet and offers you a reward.
 
@@ -218,6 +255,7 @@ Accept the Reward: You accept the guardian's reward.
 Conclusion: The reward is a powerful artifact that aids you in your journey. You return home a celebrated hero, your name known far and wide.
 Refuse the Reward: You politely refuse the reward, wary of strings attached.
 Conclusion: Your caution proves wise as you safely navigate the forest and find your way home, richer in wisdom and experience.
+
 Level 5: Conceal the Amulet (1B1B2)
 The guardian becomes suspicious and demands you hand over the amulet.
 
@@ -225,6 +263,7 @@ Comply: You hand over the amulet, hoping to avoid conflict.
 Conclusion: The guardian, pleased with your compliance, allows you to pass and offers guidance that leads you safely home, where you are welcomed as a wise and humble traveler.
 Refuse: You refuse to give up the amulet and prepare for a fight.
 Conclusion: The ensuing battle is fierce, but you prevail, earning the respect of the guardian. You continue your journey, eventually finding a safe path home, hailed as a hero.
+
 Level 5: Plant the Seed (1B2A1)
 The seed grows into a magical tree that bears golden fruit.
 
@@ -232,6 +271,7 @@ Eat the Fruit: You eat one of the golden fruits.
 Conclusion: The fruit grants you incredible strength and wisdom. You complete your journey with ease and become a revered figure in your community.
 Pick the Fruit: You pick the fruit to save for later.
 Conclusion: The fruit's magical properties help you in future challenges. You return home with the fruit, which becomes a treasured family heirloom.
+
 Level 5: Keep the Seed (1B2A2)
 You continue your journey, keeping the seed safe.
 
@@ -239,6 +279,7 @@ Plant the Seed Later: You plan to plant the seed when you find a suitable place.
 Conclusion: Finding the perfect spot, you plant the seed, which grows into a powerful tree that protects your village. You are celebrated as a guardian and protector.
 Keep Moving: You decide not to plant the seed and keep moving.
 Conclusion: The seed remains a symbol of hope and potential. You complete your journey and return home with the seed, passing it down through generations.
+
 Level 5: Follow the Advice (1B2B1)
 The advice leads you to a hidden treasure buried under a tree.
 
@@ -246,6 +287,7 @@ Dig Up the Treasure: You dig up the treasure, excited about your find.
 Conclusion: The treasure brings wealth and prosperity to you and your village. Your journey is celebrated for generations as a tale of fortune and wisdom.
 Leave the Treasure: You decide to leave the treasure, wary of possible traps.
 Conclusion: Your caution saves you from potential danger. You continue your journey and find a safer, more rewarding path home, becoming a hero in your own right.
+
 Level 5: Disregard the Advice (1B2B2)
 You continue on your path and find a mystical stone circle.
 
@@ -253,6 +295,7 @@ Enter the Circle: You step into the circle, curious about its magic.
 Conclusion: The stone circle transports you to a realm of endless knowledge. You return home enlightened and become a renowned scholar.
 Avoid the Circle: You decide to avoid the stone circle and keep moving.
 Conclusion: Avoiding the circle, you navigate the forest safely and find your way home, your adventures becoming legendary tales shared around campfires.
+
 Level 5: Take the Treasure (2A1A1)
 You accept the goblins' treasure and continue your journey.
 
@@ -260,6 +303,7 @@ Inspect the Treasure: You carefully inspect the treasure for any hidden dangers.
 Conclusion: Finding no danger, you use the treasure to benefit your village, becoming a beloved leader and hero.
 Hide the Treasure: You hide the treasure to use later.
 Conclusion: The treasure helps you in times of need, bringing prosperity and safety to your future endeavors. You become a legendary figure in your homeland.
+
 Level 5: Decline the Treasure (2A1A2)
 You refuse the treasure and continue your journey with a clear conscience.
 
@@ -267,6 +311,7 @@ Thank the Goblins: You thank the goblins and move on.
 Conclusion: Your gratitude earns you the goblins' respect. They guide you safely through the forest, and you return home with valuable knowledge and friendships.
 Leave Quickly: You leave quickly, not wanting to linger.
 Conclusion: Your swift departure keeps you safe, and you navigate the forest successfully. You return home with stories of cunning and bravery.
+
 Level 5: Examine the Treasure (2A1B1)
 You inspect the treasure carefully, looking for traps or curses.
 
@@ -274,6 +319,7 @@ Keep the Treasure: Finding nothing dangerous, you decide to keep it.
 Conclusion: The treasure brings you great wealth and allows you to improve the lives of those in your village. You become a celebrated hero.
 Bury the Treasure: You decide to bury the treasure to keep it safe.
 Conclusion: The buried treasure remains a secret, passed down through your family. You return home with the satisfaction of a job well done and the promise of future discoveries.
+
 Level 5: Leave Quickly (2A1B2)
 You take the treasure and leave the area as fast as you can.
 
@@ -281,6 +327,7 @@ Find a Safe Spot: You look for a safe spot to rest and examine the treasure.
 Conclusion: Finding a safe spot, you discover the treasure's true value. It helps you achieve great things, and you return home a hero.
 Keep Moving: You keep moving, not wanting to risk stopping.
 Conclusion: Your caution ensures your safety. You navigate through the forest and find your way home, your tales of adventure inspiring others.
+
 Level 5: Approach the Creatures (2A2A1)
 The magical creatures welcome you and offer to share their wisdom.
 
@@ -288,6 +335,7 @@ Learn from Them: You accept their offer and learn from them.
 Conclusion: The knowledge you gain from the creatures helps you greatly in your journey. You return home wiser and become a respected sage.
 Decline Politely: You decline their offer but thank them for their kindness.
 Conclusion: Your politeness earns you the creatures' respect. They guide you safely out of the forest, and you return home with a newfound appreciation for magic and nature.
+
 Level 5: Observe from Afar (2A2A2)
 You watch the creatures, learning from their behavior without disturbing them.
 
@@ -295,6 +343,7 @@ Take Notes: You take detailed notes on what you observe.
 Conclusion: Your notes become valuable research that brings you fame as a scholar. You return home and share your discoveries, gaining great respect.
 Move On: You decide to move on after observing for a while.
 Conclusion: The observations you make help you in unexpected ways later in your journey. You navigate through the forest successfully and return home with unique insights.
+
 Level 5: Take the Left Fork (2A2B1)
 The left fork leads you to a tranquil glade with a crystal-clear pond.
 
@@ -302,6 +351,7 @@ Rest by the Pond: You decide to rest by the pond and enjoy the tranquility.
 Conclusion: The rest revitalizes you, and you discover a hidden cave behind a waterfall in the pond. The cave is filled with treasures, and you return home a wealthy adventurer.
 Explore the Glade: You explore the glade, looking for any hidden secrets.
 Conclusion: Your exploration leads to the discovery of ancient runes that grant you powerful knowledge. You return home and use this knowledge to become a respected leader.
+
 Level 5: Take the Right Fork (2A2B2)
 The right fork leads you to a dense thicket.
 
