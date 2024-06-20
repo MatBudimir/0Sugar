@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-
     let message1: string | null = "";
     changeBG("1");
-    while (message1 == "") {
 
-        message1 = prompt("Level 1: The Adventure Begins\n You find yourself standing at the edge of an enchanted forest.\n Youve heard tales of great treasures and magical creatures that lie within.\n Before you are two paths:\n Take the Path to the Left: This path is overgrown with vines and flowers. Its said to be the safer route, but who knows what secrets it holds?\n Take the Path to the Right: This path is dark and foreboding. Its known for its dangerous creatures, but also for the treasures that those creatures guard.");
+    while (message1 == "") {
+            message1 = prompt("Level 1: The Adventure Begins\n You find yourself standing at the edge of an enchanted forest.\n Youve heard tales of great treasures and magical creatures that lie within.\n Before you are two paths:\n Take the Path to the Left: This path is overgrown with vines and flowers. Its said to be the safer route, but who knows what secrets it holds?\n Take the Path to the Right: This path is dark and foreboding. Its known for its dangerous creatures, but also for the treasures that those creatures guard.");
         if (message1 == "a") {
             message1 = "";
             changeBG("2A");
@@ -20,9 +19,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    function changeBG(bgnum){
-        document.body.style.backgroundImage = "url('images/' " + bgnum + ")";
+    function changeBG(bgnum: string){
+        document.body.style.backgroundImage = "url('images/" + bgnum + ".jpeg')";
     }
+
+    //setTimeout(function(){
+    //    console.log("Hello World");
+    //}, 2000);
 
     //document.getElementById("Output").innerHTML = "how are you";
 

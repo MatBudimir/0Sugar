@@ -19,8 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
     function changeBG(bgnum) {
-        document.body.style.backgroundImage = "url('images/' " + bgnum + ")";
+        document.body.style.backgroundImage = "url('images/" + bgnum + ".jpeg')";
     }
+    //setTimeout(function(){
+    //    console.log("Hello World");
+    //}, 2000);
     //document.getElementById("Output").innerHTML = "how are you";
     //upsate
     //function changeBackground(color) {
