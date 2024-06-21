@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
     function changeBG(bgTag) {
-        //let bgTag: string = bg.getBG();
         document.body.style.backgroundImage = "url('images/" + bgTag + ".jpg')";
         timeoutHandeler = setTimeout(story, delay, bgTag);
     }

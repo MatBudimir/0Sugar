@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     let message: string | null = "";
-    var timeoutHandeler;
+    var timeoutHandeler: any;
     var delay: number = 200;
     changeBG("1");
 
@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function changeBG(bgTag: string) {
-        //let bgTag: string = bg.getBG();
         document.body.style.backgroundImage = "url('images/" + bgTag + ".jpg')";
         timeoutHandeler = setTimeout(story, delay, bgTag);
     }
