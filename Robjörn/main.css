@@ -1,0 +1,27 @@
+.medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.options{
+    font-family: "MedievalSharp", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xx-large;
+    
+    text-align: center;
+    padding-top: 50%;
+}
+
+p{
+    margin: auto;
+    padding: 2%;
+    width: fit-content;
+    background-color: azure;
+    border: 1px;
+    border-style: solid;
+    border-radius: 1em;
+    box-shadow: 10px, 10px;
+}
