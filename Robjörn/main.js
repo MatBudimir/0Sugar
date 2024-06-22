@@ -7,7 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
         switch (storyPart) {
             case "1":
                 narration = "left or right";
-                desicion(narration, "left", "right", "2A", "2B", false);
+                clearTimeout(timeoutHandeler);
+                timeoutHandeler = setTimeout(desicion, delay, narration, "left", "right", "2A", "2B", false);
+                //desicion(narration, "left", "right", "2A", "2B", false);
                 break;
             case "2A":
                 narration = "you chose left: A or B";
@@ -126,6 +128,11 @@ document.addEventListener("DOMContentLoaded", function () {
         timeoutHandeler = setTimeout(story, delay, bgTag);
     }
     function desicion(narration, optionA, optionB, outcomeA, outcomeB, end) {
+        /*let narrator = document.getElementById("narrator") as HTMLParagraphElement;
+        let myTimeout = setTimeout(() => {
+            narrator.innerHTML = narration;
+        },delay);*/
+        //let message = prompt("choose: " + optionA + " or " + optionB + "");
         var message = prompt(narration);
         if (!end) {
             while (message != optionA && message != optionB) {
