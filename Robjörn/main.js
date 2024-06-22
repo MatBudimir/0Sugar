@@ -1,9 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
-    var timeoutHandeler;
-    var delay = 200;
-    var narration = "";
-    changeBG("1"); //start the story game
-    function story(storyPart) {
+/*document.addEventListener("DOMContentLoaded", function () {
+    var timeoutHandeler: any;
+    var delay: number = 200;
+    let narration: string = "";
+
+    changeBG("1");//start the story game
+
+    function story(storyPart: string) {
         switch (storyPart) {
             case "1":
                 narration = "left or right";
@@ -117,33 +119,38 @@ document.addEventListener("DOMContentLoaded", function () {
                 narration = "you chose right: A or B";
                 desicion(narration, "", "", "", "", true);
                 break;
+
         }
     }
-    function changeBG(bgTag) {
-        var image = document.getElementById("storyImage");
-        image.src = "url('images/" + bgTag + ".jpg')";
+
+    function changeBG(bgTag: string) {
+        let image = document.getElementById("storyImage") as HTMLImageElement;
+        image.src = "images/" + bgTag + ".jpg";
         timeoutHandeler = setTimeout(story, delay, bgTag);
     }
-    function desicion(narration, optionA, optionB, outcomeA, outcomeB, end) {
-        var message = prompt(narration);
+
+    function desicion(narration: string, optionA: string, optionB: string, outcomeA: string, outcomeB: string, end: boolean) {
+        let message = prompt(narration);
         if (!end) {
             while (message != optionA && message != optionB) {
                 alert("!!!CHOOSE VALID OPTIONS ONLY!!!");
                 message = prompt(narration);
             }
+
             clearTimeout(timeoutHandeler);
+
             if (message == optionA) {
                 changeBG(outcomeA);
-            }
-            else if (message == optionB) {
+            } else if (message == optionB) {
                 changeBG(outcomeB);
             }
-        }
-        else {
-            alert("you reached the end of the Story");
+        } else {
+            alert("you reached the end of the Story")
         }
     }
-});
+
+
+});*/
 /*switch (storyPart) {
             case "1":
                 while (message == "") {

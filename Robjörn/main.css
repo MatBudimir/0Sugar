@@ -47,3 +47,9 @@ body{
     background-color: rgb(112, 112, 91);
     border-radius: 1em;
 }
+
+.imagedisplay{
+    align-items: center;
+    height: fit-content;
+    width: auto;
+}
