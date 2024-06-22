@@ -10,23 +10,32 @@ document.addEventListener("DOMContentLoaded", function () {
             case "1":
                 narration = "left or right"; 
                 desicion(narration, "left", "right", "2A", "2B");
-                break;
+            break;
             case "2A":
                 narration = "you chose left: A or B"; 
                 desicion(narration, "A", "B", "3A", "3B");
-                break;
+            break;
             case "2B":
                 narration = "you chose right: A or B"; 
                 desicion(narration, "A", "B", "3C", "3D");
-                break;
+            break;
             case "3A":
                 narration = "you chose right: A or B"; 
                 desicion(narration, "A", "B", "4A", "4B");
-                break;
+            break;
             case "3B":
                 narration = "you chose right: A or B"; 
                 desicion(narration, "A", "B", "4C", "4D");
-                break;
+            break;
+            case "3B":
+                narration = "you chose right: A or B"; 
+                desicion(narration, "A", "B", "4C", "4D");
+            break;
+            case "3B":
+                narration = "you chose right: A or B"; 
+                desicion(narration, "A", "B", "4C", "4D");
+            break;
+            
             
         }
     }

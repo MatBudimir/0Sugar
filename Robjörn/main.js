@@ -25,6 +25,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 narration = "you chose right: A or B";
                 desicion(narration, "A", "B", "4C", "4D");
                 break;
+            case "3B":
+                narration = "you chose right: A or B";
+                desicion(narration, "A", "B", "4C", "4D");
+                break;
+            case "3B":
+                narration = "you chose right: A or B";
+                desicion(narration, "A", "B", "4C", "4D");
+                break;
         }
     }
     function changeBG(bgTag) {
