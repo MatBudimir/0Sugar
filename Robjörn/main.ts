@@ -1,11 +1,63 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let message: string | null = "";
     var timeoutHandeler: any;
     var delay: number = 200;
-    changeBG("1");
+    let narration: string = "";
+
+    changeBG("1");//start the story game
 
     function story(storyPart: string) {
         switch (storyPart) {
+            case "1":
+                narration = "left or right"; 
+                desicion(narration, "left", "right", "2A", "2B");
+                break;
+            case "2A":
+                narration = "you chose left: A or B"; 
+                desicion(narration, "A", "B", "3A", "3B");
+                break;
+            case "2B":
+                narration = "you chose right: A or B"; 
+                desicion(narration, "A", "B", "3C", "3D");
+                break;
+            case "3A":
+                narration = "you chose right: A or B"; 
+                desicion(narration, "A", "B", "4A", "4B");
+                break;
+            case "3B":
+                narration = "you chose right: A or B"; 
+                desicion(narration, "A", "B", "4C", "4D");
+                break;
+            
+        }
+    }
+
+    function changeBG(bgTag: string) {
+        document.body.style.backgroundImage = "url('images/" + bgTag + ".jpg')";
+        timeoutHandeler = setTimeout(story, delay, bgTag);
+    }
+
+    function desicion(narration: string, optionA: string, optionB: string, outcomeA: string, outcomeB: string){
+        let message = prompt(narration);
+        
+        while (message != optionA && message != optionB) {
+            alert("!!!CHOOSE VALID OPTIONS ONLY!!!");
+            message = prompt(narration);
+        }
+
+        clearTimeout(timeoutHandeler);
+
+        if (message == optionA) {
+            changeBG(outcomeA);
+        } else if (message == optionB) {
+            changeBG(outcomeB);
+        }
+    }
+
+
+});
+
+
+/*switch (storyPart) {
             case "1":
                 while (message == "") {
                     message = prompt("Level 1: The Adventure Begins\n You find yourself standing at the edge of an enchanted forest.\n Youve heard tales of great treasures and magical creatures that lie within.\n Before you are two paths:\n Take the Path to the Left[a]: This path is overgrown with vines and flowers. Its said to be the safer route, but who knows what secrets it holds?\n Take the Path to the Right[b]: This path is dark and foreboding. Its known for its dangerous creatures, but also for the treasures that those creatures guard.");
@@ -58,19 +110,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 }
                 break;
-        }
-    }
-
-    function changeBG(bgTag: string) {
-        document.body.style.backgroundImage = "url('images/" + bgTag + ".jpg')";
-        timeoutHandeler = setTimeout(story, delay, bgTag);
-    }
-
-
-
-
-});
-
+                
+        }*/
 
 //setTimeout(function(){
 //    console.log("Hello World");
