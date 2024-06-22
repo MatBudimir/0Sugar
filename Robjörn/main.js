@@ -7,50 +7,140 @@ document.addEventListener("DOMContentLoaded", function () {
         switch (storyPart) {
             case "1":
                 narration = "left or right";
-                desicion(narration, "left", "right", "2A", "2B");
+                desicion(narration, "left", "right", "2A", "2B", false);
                 break;
             case "2A":
                 narration = "you chose left: A or B";
-                desicion(narration, "A", "B", "3A", "3B");
+                desicion(narration, "A", "B", "3A", "3B", false);
                 break;
             case "2B":
                 narration = "you chose right: A or B";
-                desicion(narration, "A", "B", "3C", "3D");
+                desicion(narration, "A", "B", "3C", "3D", false);
                 break;
             case "3A":
                 narration = "you chose right: A or B";
-                desicion(narration, "A", "B", "4A", "4B");
+                desicion(narration, "A", "B", "4A", "4B", false);
                 break;
             case "3B":
                 narration = "you chose right: A or B";
-                desicion(narration, "A", "B", "4C", "4D");
+                desicion(narration, "A", "B", "4C", "4D", false);
                 break;
-            case "3B":
+            case "3C":
                 narration = "you chose right: A or B";
-                desicion(narration, "A", "B", "4C", "4D");
+                desicion(narration, "A", "B", "4E", "4F", false);
                 break;
-            case "3B":
+            case "3D":
                 narration = "you chose right: A or B";
-                desicion(narration, "A", "B", "4C", "4D");
+                desicion(narration, "A", "B", "4G", "4H", false);
+                break;
+            case "4A":
+                narration = "you chose right: A or B";
+                desicion(narration, "A", "B", "5A", "5B", false);
+                break;
+            case "4B":
+                narration = "you chose right: A or B";
+                desicion(narration, "A", "B", "5C", "5D", false);
+                break;
+            case "4C":
+                narration = "you chose right: A or B";
+                desicion(narration, "A", "B", "5E", "5F", false);
+                break;
+            case "4D":
+                narration = "you chose right: A or B";
+                desicion(narration, "A", "B", "5G", "5H", false);
+                break;
+            case "4H":
+                narration = "you chose right: A or B";
+                desicion(narration, "A", "B", "5I", "5J", false);
+                break;
+            case "4I":
+                narration = "you chose right: A or B";
+                desicion(narration, "A", "B", "5K", "5L", false);
+                break;
+            case "4J":
+                narration = "you chose right: A or B";
+                desicion(narration, "A", "B", "5M", "5N", false);
+                break;
+            case "4K":
+                narration = "you chose right: A or B";
+                desicion(narration, "A", "B", "5O", "5P", false);
+                break;
+            case "5A":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5B":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5C":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5D":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5H":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5I":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5J":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5K":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5L":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5M":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5N":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5O":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
+                break;
+            case "5P":
+                narration = "you chose right: A or B";
+                desicion(narration, "", "", "", "", true);
                 break;
         }
     }
     function changeBG(bgTag) {
-        document.body.style.backgroundImage = "url('images/" + bgTag + ".jpg')";
+        var image = document.getElementById("storyImage");
+        image.src = "url('images/" + bgTag + ".jpg')";
         timeoutHandeler = setTimeout(story, delay, bgTag);
     }
-    function desicion(narration, optionA, optionB, outcomeA, outcomeB) {
+    function desicion(narration, optionA, optionB, outcomeA, outcomeB, end) {
         var message = prompt(narration);
-        while (message != optionA && message != optionB) {
-            alert("!!!CHOOSE VALID OPTIONS ONLY!!!");
-            message = prompt(narration);
+        if (!end) {
+            while (message != optionA && message != optionB) {
+                alert("!!!CHOOSE VALID OPTIONS ONLY!!!");
+                message = prompt(narration);
+            }
+            clearTimeout(timeoutHandeler);
+            if (message == optionA) {
+                changeBG(outcomeA);
+            }
+            else if (message == optionB) {
+                changeBG(outcomeB);
+            }
         }
-        clearTimeout(timeoutHandeler);
-        if (message == optionA) {
-            changeBG(outcomeA);
-        }
-        else if (message == optionB) {
-            changeBG(outcomeB);
+        else {
+            alert("you reached the end of the Story");
         }
     }
 });
@@ -107,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 }
                 break;
-                
+
         }*/
 //setTimeout(function(){
 //    console.log("Hello World");

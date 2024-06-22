@@ -22,7 +22,25 @@ body{
     margin-top: 25%;
 }
 
-p{
+.options p{
+    margin: auto;
+    padding: 1%;
+    width: fit-content;
+    background-color: rgb(112, 112, 91);
+    border-radius: 1em;
+}
+
+.narration{
+    margin-top: 1em;
+    font-family: "MedievalSharp", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+
+.narration p{
     margin: auto;
     padding: 1%;
     width: fit-content;
