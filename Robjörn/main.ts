@@ -1,4 +1,4 @@
-/*document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     var timeoutHandeler: any;
     var delay: number = 200;
     let narration: string = "";
@@ -126,6 +126,7 @@
     function changeBG(bgTag: string) {
         let image = document.getElementById("storyImage") as HTMLImageElement;
         image.src = "images/" + bgTag + ".jpg";
+        document.body.style.backgroundImage = "url('images/" + bgTag + ".jpg')";
         timeoutHandeler = setTimeout(story, delay, bgTag);
     }
 
@@ -150,7 +151,7 @@
     }
 
 
-});*/
+});
 
 
 /*switch (storyPart) {

@@ -4,25 +4,42 @@
     font-style: normal;
 }
 
-body{
-    background-color: black;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+body {
+    filter: blur(10px);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.options{
+.imagedisplay {
+    filter: blur(0px);
+    text-align: center;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.bgimage {
+    filter: blur(0px);
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 45em;
+}
+
+.options {
+    filter: blur(0px);
     font-family: "MedievalSharp", cursive;
     font-weight: 600;
     font-style: normal;
     font-size: xx-large;
     color: white;
-    
     text-align: center;
-    margin-top: 25%;
+    margin-top: 1em;
 }
 
-.options p{
+.options p {
+    filter: blur(0px);
     margin: auto;
     padding: 1%;
     width: fit-content;
@@ -30,7 +47,8 @@ body{
     border-radius: 1em;
 }
 
-.narration{
+.narration {
+    filter: blur(0px);
     margin-top: 1em;
     font-family: "MedievalSharp", cursive;
     font-weight: 600;
@@ -40,16 +58,11 @@ body{
     text-align: center;
 }
 
-.narration p{
+.narration p {
+    filter: blur(0px);
     margin: auto;
     padding: 1%;
     width: fit-content;
     background-color: rgb(112, 112, 91);
     border-radius: 1em;
-}
-
-.imagedisplay{
-    align-items: center;
-    height: fit-content;
-    width: auto;
 }
