@@ -16,6 +16,7 @@ body{
     font-weight: 600;
     font-style: normal;
     font-size: xx-large;
+    color: white;
     
     text-align: center;
     margin-top: 25%;
@@ -23,11 +24,8 @@ body{
 
 p{
     margin: auto;
-    padding: 2%;
+    padding: 1%;
     width: fit-content;
-    background-color: azure;
-    border: 1px;
-    border-style: solid;
+    background-color: rgb(112, 112, 91);
     border-radius: 1em;
-    box-shadow: 10px, 10px;
 }
