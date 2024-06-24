@@ -1,5 +1,3 @@
-namespace GoblinBoi {
-
     WakeUp();
 
     function WakeUp(): void {
@@ -74,4 +72,3 @@ namespace GoblinBoi {
         } else
             alert("You run as fast as your small legs allow you to. You exit the cave and you don't look back as you disappear into the dark forest.")
     }
-}
