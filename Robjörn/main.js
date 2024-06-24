@@ -123,8 +123,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     function changeBG(bgTag) {
         var image = document.getElementById("storyImage");
-        image.src = "images/" + bgTag + ".jpg";
-        document.body.style.backgroundImage = "url('images/" + bgTag + ".jpg')";
+        image.src = "Images/" + bgTag + ".jpg";
+        document.body.style.backgroundImage = "url('Images/" + bgTag + ".jpg')";
         timeoutHandeler = setTimeout(story, delay, bgTag);
     }
     function decision(narration, optionA, optionB, outcomeA, outcomeB, end) {
