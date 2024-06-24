@@ -1,20 +1,25 @@
 // INVENTORY
-interface InventoryItem {
+interface InventoryItem
+{
     name: string;
 }
 
-class Inventory {
+class Inventory
+{
     public items: InventoryItem[] = [];
 
-    addItem(name: string): void {
+    addItem(name: string): void
+    {
         this.items.push({ name });
     }
 
-    removeItem(name: string): void {
+    removeItem(name: string): void
+    {
         this.items = this.items.filter(item => item.name !== name);
     }
 
-    hasItem(name: string): boolean {
+    hasItem(name: string): boolean
+    {
         return this.items.some(item => item.name === name);
     }
 }
@@ -24,7 +29,7 @@ const inventory = new Inventory();
 // NARRATIVE TEXT
 let n:
     {
-        [key: string]: string
+        [key: string]: string;
     } = {
     0: "What do you do?",
     1: "You are a young goblin boi, and it is a wonderfully dreary day in your moist cavern. Somehow, rays of light manage to reach the dark depths in which you slumber, prompting you to [wake up]. However, you are tired from the previous night, one full of debauchery, and you wish to keep [sleeping].",
@@ -51,35 +56,45 @@ let n:
 };
 
 // FUNCTIONS
-function WakeUp(): void {
-    let start: string = prompt(n[1], n[0])!
-    if (start == "wake up") {
+function WakeUp(): void
+{
+    let start: string = prompt(n[1], n[0])!;
+    if (start == "wake up")
+    {
         alert(n[2]);
         ChooseTask();
-    } else if (start == "sleeping") {
+    } else if (start == "sleeping")
+    {
         WakeUpAgain();
-    } else {
+    } else
+    {
         WakeUp();
     }
 }
 
-function WakeUpAgain(): void {
-    let sleep: string = prompt(n[3], n[0])!
-    if (sleep == "wake up") {
+function WakeUpAgain(): void
+{
+    let sleep: string = prompt(n[3], n[0])!;
+    if (sleep == "wake up")
+    {
         alert(n[4]);
         inventory.addItem("Tired");
         ChooseTask();
-    } else if (sleep == "rest") {
-        alert(n[5])
+    } else if (sleep == "rest")
+    {
+        alert(n[5]);
     }
-    else {
+    else
+    {
         WakeUpAgain();
     }
 }
 
-function ChooseTask(): void {
-    let tasks: string = prompt(n[6], n[0])!
-    switch (tasks) {
+function ChooseTask(): void
+{
+    let tasks: string = prompt(n[6], n[0])!;
+    switch (tasks)
+    {
         case "wood":
             alert(n[7]);
             inventory.addItem("Wood");
@@ -96,10 +111,12 @@ function ChooseTask(): void {
             IsItLate();
             break;
         case "set traps":
-            if (inventory.hasItem("Water") || inventory.hasItem("Herbs") || inventory.hasItem("Wood")) {
+            if (inventory.hasItem("Water") || inventory.hasItem("Herbs") || inventory.hasItem("Wood"))
+            {
                 ChooseTrap();
             }
-            else {
+            else
+            {
                 alert(n[17]);
                 IsItLate();
             }
@@ -110,25 +127,33 @@ function ChooseTask(): void {
     }
 }
 
-function ChooseTrap(): void {
-    let trap: string = prompt(n[10], n[0])!
-    switch (trap) {
+function ChooseTrap(): void
+{
+    let trap: string = prompt(n[10], n[0])!;
+    switch (trap)
+    {
         case "fire":
-            if (inventory.hasItem("Wood")) {
-                if (inventory.hasItem("Water")) {
+            if (inventory.hasItem("Wood"))
+            {
+                if (inventory.hasItem("Water"))
+                {
                     alert(n[20]);
-                } else {
+                } else
+                {
                     alert(n[11]);
                 }
-            } else {
+            } else
+            {
                 alert(n[19]);
                 ChooseTrap();
             }
             break;
         case "pit":
-            if (inventory.hasItem("Wood")) {
+            if (inventory.hasItem("Wood"))
+            {
                 ChoosePit();
-            } else {
+            } else
+            {
                 alert(n[19]);
                 ChooseTrap();
             }
@@ -145,23 +170,30 @@ function ChooseTrap(): void {
     }
 }
 
-function ChoosePit(): void {
-    let pit: string = prompt(n[14], n[0])!
-    if (pit == "kill") {
-        if (inventory.hasItem("Tired")) {
+function ChoosePit(): void
+{
+    let pit: string = prompt(n[14], n[0])!;
+    if (pit == "kill")
+    {
+        if (inventory.hasItem("Tired"))
+        {
             alert(n[15]);
-        } else {
+        } else
+        {
             alert(n[18]);
         }
     } else
-        alert(n[16])
+        alert(n[16]);
 }
 
-function IsItLate(): void {
-    if (inventory.hasItem("Tired")) {
+function IsItLate(): void
+{
+    if (inventory.hasItem("Tired"))
+    {
         alert(n[21]);
         ChooseTrap();
-    } else {
+    } else
+    {
         ChooseTask();
     }
 }
