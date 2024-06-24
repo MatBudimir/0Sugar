@@ -38,7 +38,6 @@ namespace GoblinBoi {
                 ChooseTask();
                 break;
             case "set traps":
-                alert("It's time to prepare you home defence.");
                 ChooseTrap();
                 break;
             default:
