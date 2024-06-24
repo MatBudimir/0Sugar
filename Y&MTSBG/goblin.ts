@@ -4,7 +4,7 @@ interface InventoryItem {
 }
 
 class Inventory {
-    private items: InventoryItem[] = [];
+    public items: InventoryItem[] = [];
 
     addItem(name: string): void {
         this.items.push({ name });
