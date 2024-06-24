@@ -8,14 +8,14 @@ document.addEventListener("DOMContentLoaded", function () {
     function story(storyPart: string) {
         switch (storyPart) {
             case "1":
-                narration = "left or right";
+                narration = "The Adventure Begins\nYou find yourself standing at the edge of an enchanted forest.You've heard tales of great treasures and magical creatures that lie within. Before you are two paths:\nTake the Left Path:This path is overgrown with vines and flowers.It's said to be the safer route, but who knows what secrets it holds?\nTake the Right Path: This path is dark and foreboding.It's known for its dangerous creatures, but also for the treasures that those creatures guard.";
                 clearTimeout(timeoutHandeler);
                 timeoutHandeler = setTimeout(decision, delay, narration, "left", "right", "2A", "2B", false);
                 //decision(narration, "left", "right", "2A", "2B", false);
                 break;
             case "2A":
-                narration = "you chose left: A or B";
-                decision(narration, "A", "B", "3A", "3B", false);
+                narration = "As you walk along the left path, you come across a talking fox. The fox offers to guide you through the forest in exchange for a favor.\n[Accept] the Fox's Offer: You agree to the fox's terms, curious about the favor it might ask for later.\n[Decline] the Fox's Offer: You decide to trust your own instincts and continue walking alone.";
+                decision(narration, "Accept", "Decline", "3A", "3B", false);
                 break;
             case "2B":
                 narration = "you chose right: A or B";
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
         //let message = prompt("choose: " + optionA + " or " + optionB + "");
 
         let message = prompt(narration);
-        
+
         if (!end) {
             while (message != optionA && message != optionB) {
                 alert("!!!CHOOSE VALID OPTIONS ONLY!!!");
