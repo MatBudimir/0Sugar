@@ -1,5 +1,3 @@
-namespace GoblinBoi {
-
     WakeUp();
 
     function WakeUp(): void {
@@ -68,10 +66,9 @@ namespace GoblinBoi {
     }
 
     function ChoosePit(): void {
-        let pit: string = prompt("You carefuly hid the pit with some leaves and dirt. Anxiously you await the adventurers, but soon you hear them spring your trap, then screaming and shouting. The adventurers are stuck in your pit, for now. Do you try to [kill] them, or do you take the chance to [run]?")!
+        let pit: string = prompt("You carefully hid the pit with some leaves and dirt. Anxiously you await the adventurers, but soon you hear them spring your trap, then screaming and shouting. The adventurers are stuck in your pit, for now. Do you try to [kill] them, or do you take the chance to [run]?")!
         if (pit == "kill") {
-            alert("You grab a rough stone and sling it at one of the fools. The stone glances off their armor. Fueled by anger they climb out of the pit. At the last momemnt you try to run, but a knife hits you in the back. You die.");
+            alert("You grab a rough stone and sling it at the fools, but the stones glance off their armor. Fueled by anger they climb out of the pit. At the last momemnt you try to run, but a knife hits you in the back. You die.");
         } else
             alert("You run as fast as your small legs allow you to. You exit the cave and you don't look back as you disappear into the dark forest.")
     }
-}
