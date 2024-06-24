@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
     function story(storyPart: string) {
         switch (storyPart) {
             case "1":
-                narration = "The Adventure Begins\nYou find yourself standing at the edge of an enchanted forest.You've heard tales of great treasures and magical creatures that lie within. Before you are two paths:\nTake the Left Path:This path is overgrown with vines and flowers.It's said to be the safer route, but who knows what secrets it holds?\nTake the Right Path: This path is dark and foreboding.It's known for its dangerous creatures, but also for the treasures that those creatures guard.";
+                narration = "The Adventure Begins\nYou find yourself standing at the edge of an enchanted forest.You've heard tales of great treasures and magical creatures that lie within. Before you are two paths:\nTake the [Left] Path:This path is overgrown with vines and flowers.It's said to be the safer route, but who knows what secrets it holds?\nTake the [Right] Path: This path is dark and foreboding.It's known for its dangerous creatures, but also for the treasures that those creatures guard.";
                 clearTimeout(timeoutHandeler);
-                timeoutHandeler = setTimeout(decision, delay, narration, "left", "right", "2A", "2B", false);
+                timeoutHandeler = setTimeout(decision, delay, narration, "Left", "Right", "2A", "2B", false);
                 //decision(narration, "left", "right", "2A", "2B", false);
                 break;
             case "2A":
