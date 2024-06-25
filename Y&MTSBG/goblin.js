@@ -1,20 +1,15 @@
 "use strict";
-class Inventory
-{
-    constructor()
-    {
+class Inventory {
+    constructor() {
         this.items = [];
     }
-    addItem(name)
-    {
+    addItem(name) {
         this.items.push({ name });
     }
-    removeItem(name)
-    {
+    removeItem(name) {
         this.items = this.items.filter(item => item.name !== name);
     }
-    hasItem(name)
-    {
+    hasItem(name) {
         return this.items.some(item => item.name === name);
     }
 }
@@ -45,46 +40,36 @@ let n = {
     21: "You hear footsteps in the distance. Darn! You wasted too much time sleeping in. You must hurry and set up your trap."
 };
 // FUNCTIONS
-function WakeUp()
-{
+function WakeUp() {
     let start = prompt(n[1], n[0]);
-    if (start == "wake up")
-    {
+    if (start == "wake up") {
         alert(n[2]);
         ChooseTask();
     }
-    else if (start == "sleeping")
-    {
+    else if (start == "sleeping") {
         WakeUpAgain();
     }
-    else
-    {
+    else {
         WakeUp();
     }
 }
-function WakeUpAgain()
-{
+function WakeUpAgain() {
     let sleep = prompt(n[3], n[0]);
-    if (sleep == "wake up")
-    {
+    if (sleep == "wake up") {
         alert(n[4]);
         inventory.addItem("Tired");
         ChooseTask();
     }
-    else if (sleep == "rest")
-    {
+    else if (sleep == "rest") {
         alert(n[5]);
     }
-    else
-    {
+    else {
         WakeUpAgain();
     }
 }
-function ChooseTask()
-{
+function ChooseTask() {
     let tasks = prompt(n[6], n[0]);
-    switch (tasks)
-    {
+    switch (tasks) {
         case "wood":
             alert(n[7]);
             inventory.addItem("Wood");
@@ -101,12 +86,10 @@ function ChooseTask()
             IsItLate();
             break;
         case "set traps":
-            if (inventory.hasItem("Water") || inventory.hasItem("Herbs") || inventory.hasItem("Wood"))
-            {
+            if (inventory.hasItem("Water") || inventory.hasItem("Herbs") || inventory.hasItem("Wood")) {
                 ChooseTrap();
             }
-            else
-            {
+            else {
                 alert(n[17]);
                 IsItLate();
             }
@@ -116,36 +99,28 @@ function ChooseTask()
             break;
     }
 }
-function ChooseTrap()
-{
+function ChooseTrap() {
     let trap = prompt(n[10], n[0]);
-    switch (trap)
-    {
+    switch (trap) {
         case "fire":
-            if (inventory.hasItem("Wood"))
-            {
-                if (inventory.hasItem("Water"))
-                {
+            if (inventory.hasItem("Wood")) {
+                if (inventory.hasItem("Water")) {
                     alert(n[20]);
                 }
-                else
-                {
+                else {
                     alert(n[11]);
                 }
             }
-            else
-            {
+            else {
                 alert(n[19]);
                 ChooseTrap();
             }
             break;
         case "pit":
-            if (inventory.hasItem("Wood"))
-            {
+            if (inventory.hasItem("Wood")) {
                 ChoosePit();
             }
-            else
-            {
+            else {
                 alert(n[19]);
                 ChooseTrap();
             }
@@ -161,32 +136,25 @@ function ChooseTrap()
             break;
     }
 }
-function ChoosePit()
-{
+function ChoosePit() {
     let pit = prompt(n[14], n[0]);
-    if (pit == "kill")
-    {
-        if (inventory.hasItem("Tired"))
-        {
+    if (pit == "kill") {
+        if (inventory.hasItem("Tired")) {
             alert(n[15]);
         }
-        else
-        {
+        else {
             alert(n[18]);
         }
     }
     else
         alert(n[16]);
 }
-function IsItLate()
-{
-    if (inventory.hasItem("Tired"))
-    {
+function IsItLate() {
+    if (inventory.hasItem("Tired")) {
         alert(n[21]);
         ChooseTrap();
     }
-    else
-    {
+    else {
         ChooseTask();
     }
 }
