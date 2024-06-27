@@ -1,6 +1,12 @@
-let startButton: HTMLButtonElement = <HTMLButtonElement>document.getElementById("startButton");
+addEventListener("load", loadHandeler);
 
-startButton.addEventListener("click", startGame);
+function loadHandeler(_event: Event){
+    let startButton: HTMLButtonElement = <HTMLButtonElement>document.getElementById("startButton");
+
+    startButton.addEventListener("click", startGame);
+}
+
+
 
 function startGame(_event: MouseEvent){
     let cols:number = (document.getElementById('cols') as HTMLInputElement).valueAsNumber;

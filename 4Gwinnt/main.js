@@ -1,5 +1,8 @@
-var startButton = document.getElementById("startButton");
-startButton.addEventListener("click", startGame);
+addEventListener("load", loadHandeler);
+function loadHandeler(_event) {
+    var startButton = document.getElementById("startButton");
+    startButton.addEventListener("click", startGame);
+}
 function startGame(_event) {
     var cols = document.getElementById('cols').valueAsNumber;
     var rows = document.getElementById('rows').valueAsNumber;
