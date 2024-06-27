@@ -10,4 +10,7 @@ function startGame(){
         alert('Invalid grid dimensions.');
         return;
     }
+
+    console.log("Cols: " + cols);
+    console.log("Rows: " + rows);
 }
