@@ -1,6 +1,6 @@
 addEventListener("load", loadHandeler);
 
-function loadHandeler(_event: Event){
+function loadHandeler(_event: Event) {
     let startButton: HTMLButtonElement = <HTMLButtonElement>document.getElementById("startButton");
 
     startButton.addEventListener("click", startGame);
@@ -8,15 +8,27 @@ function loadHandeler(_event: Event){
 
 
 
-function startGame(_event: MouseEvent){
-    let cols:number = (document.getElementById('cols') as HTMLInputElement).valueAsNumber;
-    let rows:number = (document.getElementById('rows') as HTMLInputElement).valueAsNumber;
+function startGame(_event: MouseEvent) {
+    let cols: number = (document.getElementById('cols') as HTMLInputElement).valueAsNumber;
+    let rows: number = (document.getElementById('rows') as HTMLInputElement).valueAsNumber;
 
     if (cols > 16 || rows > 9 || cols < 4 || rows < 4) {
         alert('Invalid grid dimensions.');
         return;
     }
 
-    console.log("Cols: " + cols);
+    drawGrid(cols, rows);
     console.log("Rows: " + rows);
+}
+
+function drawGrid(cols: number, rows: number) {
+    let cell = document.createElement("div");
+    let board = document.getElementById("board");
+
+    for (let c = 0; c < cols; c++) {
+        for (let r = 0; r < rows; r++) {
+            board?.appendChild(cell);
+        }
+    }
+
 }
