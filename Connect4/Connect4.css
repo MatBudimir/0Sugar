@@ -30,8 +30,10 @@ body {
 
 .cell.player1 {
     background-color: red;
+    border-radius: 10%;
 }
 
 .cell.player2 {
     background-color: yellow;
+    border-radius: 10%;
 }

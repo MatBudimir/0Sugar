@@ -7,7 +7,7 @@ function startGame() {
     const cols = (document.getElementById('cols') as HTMLInputElement).valueAsNumber;
     const rows = (document.getElementById('rows') as HTMLInputElement).valueAsNumber;
 
-    if (cols > 16 || rows > 9 || cols < 1 || rows < 1) {
+    if (cols > 16 || rows > 9 || cols < 4 || rows < 4) {
         alert('Invalid grid dimensions.');
         return;
     }
