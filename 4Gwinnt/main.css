@@ -1,5 +1,10 @@
 body{
     font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.settings {
+    margin: 20px;
 }
 
 .board {
