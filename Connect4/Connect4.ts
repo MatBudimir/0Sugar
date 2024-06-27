@@ -17,7 +17,7 @@ function startGame() {
     gameBoard.innerHTML = '';
 
     createGrid(cols, rows);
-}//
+}
 
 function createGrid(cols: number, rows: number) {
     for (let row = 0; row < rows; row++) {
