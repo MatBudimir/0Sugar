@@ -1,4 +1,4 @@
-var startButton = document.querySelector("button#startGame");
+var startButton = document.getElementById("startButton");
 startButton.addEventListener("click", startGame);
 function startGame(_event) {
     var cols = document.getElementById('cols').valueAsNumber;

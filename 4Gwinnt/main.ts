@@ -1,4 +1,4 @@
-let startButton: HTMLButtonElement = <HTMLButtonElement>document.querySelector("button#startGame");
+let startButton: HTMLButtonElement = <HTMLButtonElement>document.getElementById("startButton");
 
 startButton.addEventListener("click", startGame);
 
