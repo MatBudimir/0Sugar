@@ -1,4 +1,6 @@
-let startButton = document.getElementById("startGame");
+let startButton: HTMLElement = <HTMLElement>document.getElementById("startGame");
+
+startButton?.addEventListener("click", startGame);
 
 function startGame(){
 
