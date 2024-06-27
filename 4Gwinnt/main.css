@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.board {
+    display: grid;
+    background-color: black;
+}
+
+.cell {
+    background-color: white;
+    border-radius: 100%;
+}
+
+.player1 {
+    background-color: red;
+    border-radius: 100%;
+}
+
+.player2 {
+    background-color: yellow;
+    border-radius: 100%;
+}
