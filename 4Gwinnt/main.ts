@@ -24,6 +24,10 @@ function startGame(_event: MouseEvent) {
 function drawGrid(cols: number, rows: number) {
 
     let board: HTMLDivElement = <HTMLDivElement>document.getElementById("board");
+    board.style.gridTemplateColumns = `repeat(${cols}, 50px)`;
+    board.style.gridTemplateRows = `repeat(${rows}, 50px)`;
+    board.innerHTML = '';
+
     
 
     for (let c = 0; c < cols; c++) {
