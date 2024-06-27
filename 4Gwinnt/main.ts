@@ -22,12 +22,16 @@ function startGame(_event: MouseEvent) {
 }
 
 function drawGrid(cols: number, rows: number) {
-    let cell = document.createElement("div");
-    let board = document.getElementById("board");
+
+    let board: HTMLDivElement = <HTMLDivElement>document.getElementById("board");
+    
 
     for (let c = 0; c < cols; c++) {
         for (let r = 0; r < rows; r++) {
-            board?.appendChild(cell);
+            let cell: HTMLDivElement = <HTMLDivElement>document.createElement("div");
+            board.appendChild(cell);
+            cell.id = "cell"
+            console.log(r);
         }
     }
 

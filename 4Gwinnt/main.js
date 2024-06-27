@@ -15,11 +15,13 @@ function startGame(_event) {
     console.log("Rows: " + rows);
 }
 function drawGrid(cols, rows) {
-    let cell = document.createElement("div");
     let board = document.getElementById("board");
     for (let c = 0; c < cols; c++) {
         for (let r = 0; r < rows; r++) {
-            board === null || board === void 0 ? void 0 : board.appendChild(cell);
+            let cell = document.createElement("div");
+            board.appendChild(cell);
+            cell.id = "cell";
+            console.log(r);
         }
     }
 }
