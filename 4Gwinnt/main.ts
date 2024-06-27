@@ -1,8 +1,8 @@
-let startButton: HTMLElement = <HTMLElement>document.getElementById("startGame");
+let startButton: HTMLButtonElement = <HTMLButtonElement>document.querySelector("button#startGame");
 
-startButton?.addEventListener("click", startGame);
+startButton.addEventListener("click", startGame);
 
-function startGame(){
+function startGame(_event: MouseEvent){
     let cols:number = (document.getElementById('cols') as HTMLInputElement).valueAsNumber;
     let rows:number = (document.getElementById('rows') as HTMLInputElement).valueAsNumber;
 

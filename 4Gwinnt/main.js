@@ -1,6 +1,6 @@
-var startButton = document.getElementById("startGame");
-startButton === null || startButton === void 0 ? void 0 : startButton.addEventListener("click", startGame);
-function startGame() {
+var startButton = document.querySelector("button#startGame");
+startButton.addEventListener("click", startGame);
+function startGame(_event) {
     var cols = document.getElementById('cols').valueAsNumber;
     var rows = document.getElementById('rows').valueAsNumber;
     if (cols > 16 || rows > 9 || cols < 4 || rows < 4) {
