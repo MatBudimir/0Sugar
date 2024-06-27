@@ -3,8 +3,11 @@ let startButton: HTMLElement = <HTMLElement>document.getElementById("startGame")
 startButton?.addEventListener("click", startGame);
 
 function startGame(){
-    let gridCols: HTMLInputElement = <HTMLInputElement>document.getElementById("cols");
-    let gridRows: HTMLInputElement = <HTMLInputElement>document.getElementById("rows");
+    let cols:number = (document.getElementById('cols') as HTMLInputElement).valueAsNumber;
+    let rows:number = (document.getElementById('rows') as HTMLInputElement).valueAsNumber;
 
-    gridCols.innerHTML
+    if (cols > 16 || rows > 9 || cols < 4 || rows < 4) {
+        alert('Invalid grid dimensions.');
+        return;
+    }
 }
