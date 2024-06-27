@@ -1,4 +1,5 @@
 body{
+    display: flex;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -9,8 +10,7 @@ body{
 
 .board {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    margin: 10%;
     background-color: black;
 }
 
